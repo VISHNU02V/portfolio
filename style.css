@@ -2,7 +2,7 @@ body{
   background-color: rgb(255, 255, 255);
   color:rgb(0, 0, 0);
   margin:0;
-  font-size: 14px;
+  font-size: 100%;
   scroll-behavior: smooth;
   
 }
@@ -55,7 +55,7 @@ nav{
   /* justify-content: space-evenly; */
 }
 .imsp{
-  width:62%;
+  width:80%;
   left:0;
   display: flex;
   
@@ -113,6 +113,9 @@ display:none;
   
 
 }
+.ach{
+  width:100%;
+}
 
 
 
@@ -165,7 +168,7 @@ border-radius:50%;
 .dropdown {
 position: relative;
 display: block;
-width:5%;
+width:7%;
 float:left;
 align-content: center;
 
