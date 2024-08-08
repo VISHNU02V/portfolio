@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Vishnu V</title>
+</head>
+<body>
+    <section class="navbar" >
+        <nav>
+            <div class="imsp">
+                <a href="#home" class="nava image" id="nav-link">
+                    <div class="navimg">
+                        <img src="https://live.staticflickr.com/65535/53895336044_caecd807ed_n.jpg" width="50" height="50" class="logo" alt="logo"/>
+                    </div>
+                </a>    
+            </div>
+            <div class="asp">
+                <a href="#home" class="nava rightna"  id="nav-link">
+                    <div class="navimg">
+                        <i class="bi bi-house-door"></i>
+                    </div>
+                    <div class="navtxt">
+                        home
+                    </div>
+                </a>
+                <a href="#education" class="nava rightna"  id="nav-link">
+                    <div class="navimg">
+                        <i class="bi bi-book-half"></i>
+                    </div>
+                    <div class="navtxt">
+                        education
+                    </div>
+                </a>
+                <a href="#skills" class="nava rightna"  id="nav-link">
+                    <div class="navimg">
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="navtxt">
+                        skills
+                    </div>
+                </a>
+                    <div class="dropdown">
+                        <!-- three dots -->
+                        <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown()">
+                            <div   class="nava">
+                                
+                                <div class="navtxt d">
+                                    Achievements
+                                </div>
+                            </div>
+                        </ul>
+                        <!-- menu -->
+                        <div id="myDropdown" class="dropdown-content" >
+                            <a  href="#project" class="nava adrop"  id="nav-link">
+                                <div class="navimg">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                </div>
+                                <div class="navtxt">
+                                    project
+                                </div>
+                            </a>
+                            <a  href="#certificate" class="nava adrop"  id="nav-link">
+                                <div class="navimg">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                </div>
+                                <div class="navtxt">
+                                     certifcate
+                                </div>
+                            </a>
+                            <a  href="#internship" class="nava adrop"  id="nav-link">
+                                <div class="navimg">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                </div>
+                                <div class="navtxt">
+                                     internship
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mode">
+                        <div class="tdnn">
+                            <div class="moon">
+                           </div>
+                       </div>
+                    </div>
+            </div>
+        </nav>
+    </section>
+    <section class="menu" id="mobsec">
+        <div class="mobile" id="mobile" onclick="myFunction(this)">
+            <div class="bar1" ></div>
+            <div class="bar2" id="bar"></div>
+            <div class="bar3"></div>
+        </div>
+        <section class="navbar" id="navbar">
+            <nav>
+                
+                <a href="#home" class="nava image">
+                    <div class="navimg">
+                        <img src="https://live.staticflickr.com/65535/53895336044_caecd807ed_n.jpg" width="50" height="50" class="logo" alt="logo"/>
+                    </div>
+                </a>
+                <a href="" class="navaspace">
+                    <div class="navimg">
+                        <img src="" alt="" srcset="">
+                    </div>
+                    <div class="navtxt">
+                      
+                    </div>
+                </a>
+                <a href="#home" class="nava">
+                    <div class="navimg">
+                        <i class="bi bi-house-door"></i>
+                    </div>
+                    <div class="navtxt">
+                        home
+                    </div>
+                </a>
+                <a href="#education" class="nava">
+                    <div class="navimg">
+                        <i class="bi bi-book-half"></i>
+                    </div>
+                    <div class="navtxt">
+                        education
+                    </div>
+                </a>
+                <a href="#skills" class="nava">
+                    <div class="navimg">
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="navtxt">
+                        skills
+                    </div>
+                </a>
+                <div class="dropdown">
+                    <!-- three dots -->
+                    <ul class="dropbtn icons btn-right showLeft" onclick="showDropdown()">
+                        <a   class="nava">
+                            <div class="navimg">
+                                <i class="bi bi-person-lines-fill"></i>
+                            </div>
+                            <div class="navtxt">
+                                Achievements
+                            </div>
+                        </a>
+                    </ul>
+                    <!-- menu -->
+                    <div id="myDropdown" class="dropdown-content">
+                        <a  href="#project" class="nava adrop">
+                            <div class="navimg">
+                                <i class="bi bi-person-lines-fill"></i>
+                            </div>
+                            <div class="navtxt">
+                                project
+                            </div>
+                        </a>
+                        <a  href="#certificate" class="nava adrop">
+                            <div class="navimg">
+                                <i class="bi bi-person-lines-fill"></i>
+                            </div>
+                            <div class="navtxt">
+                                 certifcate
+                            </div>
+                        </a>
+                        <a  href="#internship" class="nava adrop">
+                            <div class="navimg">
+                                <i class="bi bi-person-lines-fill"></i>
+                            </div>
+                            <div class="navtxt">
+                                 internship
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="mode">
+                    <div class="tdnn">
+                        <div class="moon">
+                       </div>
+                   </div>
+                </div>
+            </nav>
+        </section>
+
+    </section>
+      
+    
+    <section class="sec about" id="home">
+        <div class="container aboutcon">
+            <div class="imgholder">
+                <img src="https://live.staticflickr.com/65535/53896782014_519ca74d5b_m.jpg" width="164" height="240" class="img" alt="1715827129456"/>
+            </div>
+            <div class="conholder">
+                <p> Hello ! I am VISHNU V <br> <br>Greetings , I am a seasoned artisan in the realm of Computer Science and Engineering,
+                  weaving intricate tapestries of code and technological marvels . Possessing a bouquet of skills in software alchemy,my 
+                  unwavering commitment to excellence propels me towards orchestrating innovation and elevating the landscape of Computer Science and Engineering. </p>
+            </div>
+        </div>
+    </section>
+    <section class="sec" id="education">
+        <div class="container education">
+            <div class="ed">
+                <div class="zoom">
+                    <div><h2>Bachelor of Technology <br> in  Computer Science</h2></div>
+                    <div>Under KTU from Adi Shankara Institute of Engineering and Technology</div>
+                    <div>Year : 2020 to 2024 with CGPA : 7.91 </div>
+                </div>
+            </div>
+            <div class="ed">
+                <div class="zoom">
+                    <div><h2>Higher Secondary Education <br> in Computer Science</h2></div>
+                    <div>Under CBSE from Cochin Refineries School</div>
+                    <div>Year : 2019 to 2020 with Percentage : 85.6% </div>
+                </div>
+            </div>
+            <div class="ed">
+                <div class="zoom">
+                    <div><h2>Secondary Education </h2></div>
+                    <div><br></div>
+                    <div>Under CBSE from Cochin Refineries School</div>
+                    <div>Year : 2017 to 2018 with CGPA : 86.4% </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="sec edu" id="skills">
+        <div class="container skills">
+            <div class="scroller" data-animated="true">
+                <div class="scroller_content">
+                  <li><div><i class="fa-brands fa-github"></i></div>Github</li>
+                  <li><div><i class="fa-brands fa-flickr"></i></div>Flickr</li>
+                  <li><div><i class="fa-brands fa-html5" ></i></div> HTML</li>
+                  <li><div><i class="fa-brands fa-css3-alt"></i></div>CSS</li>
+                  <li><div><i class="fa-brands fa-js"></i></div>  JS</li>
+                  <li><div><i class="fa-brands fa-python"></i></div> Python</li>
+                  <!-- <li><div><img src="../src/lib/assets/django.png" width="90" height="90" alt="" srcset=""></div>DJango</li> -->
+                  <!-- <li><div><img src="../src/lib/assets/c.png" width="85" height="90" alt="" srcset=""></div>C</li> -->
+                  <!-- <li><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="photoshop"><path d="M7.433 7.004A.501.501 0 0 0 7 7.5v9a.5.5 0 0 0 1 0v-3.33c1.149.224 2.575-.037 3.584-.698C12.497 11.873 13 10.995 13 10c0-.907-.31-1.637-.92-2.17-1.193-1.041-3.184-1.024-4.647-.826zm3.603 4.632c-.84.551-2.129.754-3.036.51V7.945c1.565-.153 2.771.07 3.422.638.389.34.578.803.578 1.417 0 .666-.324 1.216-.964 1.636zM16.089 12.909C15.299 12.641 15 12.493 15 12c0-.454.167-.747.508-.894.533-.228 1.324-.049 1.648.257a.5.5 0 0 0 .687-.727c-.651-.616-1.876-.817-2.731-.449-.717.31-1.112.954-1.112 1.813 0 1.256 1.022 1.603 1.769 1.855.875.297 1.231.484 1.231 1.145 0 .736-.356.888-.474.938-.56.236-1.424-.051-1.679-.297a.5.5 0 1 0-.695.719c.36.348 1.127.664 1.889.664.301 0 .602-.049.875-.166C17.322 16.687 18 16.217 18 15c0-1.444-1.104-1.818-1.911-2.091z"></path><path d="M23.5 0H.5a.5.5 0 0 0-.5.5v23a.5.5 0 0 0 .5.5h23a.5.5 0 0 0 .5-.5V.5a.5.5 0 0 0-.5-.5zM3 21V3h18v18H3z"></path></svg></div>Photoshop</li> -->
+                  <li><div><i class="fa-brands fa-java"></i></div>Java</li>
+                  <li><div><i class="fa-brands fa-figma"></i></div>Figma</li>
+                  <li><div><i class="fa-brands fa-git-alt"></i></div>git</li>
+                  <li><div><i class="fa-brands fa-github"></i></div>Github</li>
+                  <li><div><i class="fa-brands fa-flickr"></i></div>Flickr</li>
+                  <!-- <li><div><img src="../src/lib/assets/replit.png" width="85" height="90" alt="" srcset=""></div>Replit</li> -->
+                  <!-- <li><div><img src="../src/lib/assets/gimp.png" width="85" height="90" alt="" srcset=""></div>Gimp</li> --><li><div><i class="fa-brands fa-html5" ></i></div> HTML</li>
+                  <li><div><i class="fa-brands fa-css3-alt"></i></div>CSS</li>
+                  <li><div><i class="fa-brands fa-js"></i></div>  JS</li>
+                  <li><div><i class="fa-brands fa-html5" ></i></div> HTML</li>
+                  <li><div><i class="fa-brands fa-css3-alt"></i></div>CSS</li>
+                  <li><div><i class="fa-brands fa-js"></i></div>  JS</li>
+                  <li><div><i class="fa-brands fa-python"></i></div> Python</li>
+                  <li><div><i class="fa-brands fa-java"></i></div>Java</li>
+                  <li><div><i class="fa-brands fa-figma"></i></div>Figma</li>
+                  <li><div><i class="fa-brands fa-git-alt"></i></div>git</li>
+                  <li><div><i class="fa-brands fa-github"></i></div>Github</li>
+                  <li><div><i class="fa-brands fa-flickr"></i></div>Flickr</li>
+                  <li><div><i class="fa-brands fa-css3-alt"></i></div>CSS</li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec skillsbar" id="skillsbar">
+        <div class="container sbar">
+            <div class="partition">
+                <div class="ch">
+                    <div class="left">
+                        <p>C</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:90%">
+                                <p class="percent">90%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ch">
+                    <div class="left">
+                        <p>Python</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:100%">
+                                <p class="percent">100%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ch">
+                    <div class="left">
+                        <p>C #</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:70%">
+                                <p class="percent">70%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ch">
+                    <div class="left">
+                        <p>JAVA</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:80%">
+                                <p class="percent">80%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ch">
+                    <div class="left">
+                        <p>JAVASCRIPT</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:70%">
+                                <p class="percent">70%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="partition">
+                <div class="ch">
+                    <div class="left">
+                        <p>HTML</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:90%">
+                                <p class="percent">90%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ch">
+                    <div class="left">
+                        <p>CSS</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:90%">
+                                <p class="percent">90%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ch">
+                    <div class="left">
+                        <p>C++</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:70%">
+                                <p class="percent">70%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ch">
+                    <div class="left">
+                        <p>NODE JS</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:70%">
+                                <p class="percent">70%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ch">
+                    <div class="left">
+                        <p>REACT</p>
+                    </div>
+                    <div class="right">
+                        <div class="progress">
+                            <div class="bar" style="width:70%">
+                                <p class="percent">70%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section class="sec" id="project">
+        <div class="container pro">
+            <div class="proholder">
+                <div class=" pextra proj">
+                    <img src="https://live.staticflickr.com/65535/53900839616_06281621ab_z.jpg" class="mpi" width="640" height="324" alt="Screenshot from 2024-08-04 15-20-44"/>                   
+                </div>
+            </div>
+            <div class="prodesc">
+                <div class="info">
+                    <div class="zoom">
+                        <h1>Main Project : Deep-Fake Detection</h1>
+                        <li class="pointer"></li>Deepfake technology utilizes deep neural networks to generate realistic-looking synthetic videos by superimposing one person's face onto another's body, enabling the creation of highly convincing but fabricated content.<br>
+                        <li class="pointer"></li>Detecting and mitigating the spread of deepfake videos has become a critical challenge for maintaining trust and authenticity in online platforms. In this study, we propose a deep learning-based approach for the detection of deepfake videos. <br>
+                        <li class="pointer"></li>The proposed deepfake detection system offers a promising solution for combating the proliferation of synthetic media and safeguarding the integrity of digital content in online platforms. <br>
+                        <li class="pointer"></li><a href="https://github.com/Deep-Fake-Detection/Final_DeepFake" target="_blank" rel="noopener noreferrer"class="link">For more details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pro">
+            <div class="prodesc">
+                <div class="info">
+                    <div class="zoom">
+                        <h1>Mini Project : Civil Plan Generator</h1>
+                        <li class="pointer"></li>The Civil Plan Generator website aspires to simplify and enhance the architectural design process. <br>
+                        <li class="pointer"></li>Its features encompass intelligent plot recommendations based on user preferences, real-time visualization of architectural layouts, and automated room allocation algorithms. <br>
+                        <li class="pointer"></li>The proposed website extends its utility not only to individuals seeking custom civil plans but also to urban planning professionals, architects, and property developers. <br>
+                        <li class="pointer"></li><a href="https://github.com/Civilplangenerator/civilplan" target="_blank" rel="noopener noreferrer"class="link">For more details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proholder">
+                <div class=" pextra promini">
+    
+                        <img src="https://live.staticflickr.com/65535/53900878921_18d1a0c468_z.jpg" width="600" height="316" alt="Screenshot from 2024-08-04 15-49-15"/></div>
+
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section class="sec " id="certificate">
+        <div class="container cer">
+            <div class="cerholder">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                          <img src="https://live.staticflickr.com/65535/53899268518_3575c933be.jpg" width="400" height="310" alt="Screenshot from 2024-08-03 17-47-15" class="imgcer"/>
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>
+                            Certificate
+                        </h1>
+                        <h2>Python Basics</h2> 
+                        <a href="https://www.coursera.org/account/accomplishments/verify/SSSMYYZBFZGG" target="_blank" rel="noopener noreferrer"class="link">For more details</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cerholder">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="https://live.staticflickr.com/65535/53899235528_414cab1796.jpg" width="400" height="310" alt="Screenshot from 2024-08-03 17-23-23"  class="imgcer"/>           
+                    </div>
+                      <div class="flip-card-back">
+                        <h1>
+                            Certificate
+                        </h1>
+                        <h2>Machine Learning Certificate</h2> 
+                        <a href="https://www.linkedin.com/posts/vishnu02v_completion-certificate-on-machine-learning-activity-7020236564999925760-5WJA?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer" class="link">For more details</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cerholder">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="https://live.staticflickr.com/65535/53899585713_3cdac9e60c_w.jpg" width="400" height="310" alt="Screenshot from 2024-08-03 17-23-23"  class="imgcer"/>           
+                    </div>
+                      <div class="flip-card-back">
+                        <h1>
+                            Certificate
+                        </h1>
+                        <h2>Foundation of User Experience (UX) Design</h2> 
+                        <a href="https://www.coursera.org/account/accomplishments/verify/RQ976Q5JK4F6" target="_blank" rel="noopener noreferrer" class="link">For more details</a>
+                     
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec last" id="internship">
+        <div class="container intern">
+            <div class="divider l">
+                <div class="file">
+                    <object class="pdf" data="https://drive.google.com/file/d/1HRgFH2PyXHKABLNUJ5A1TeX0y3ILXrWe/preview" width="500" height="500"></object>
+                </div>
+            </div>
+            <div class="divider r">
+                <div class="info">
+                    <h1>Internship</h1>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="foot">
+            <a href="tel:6282651787" target="_blank" rel="noopener noreferrer" class="phone">
+                <i class="bi bi-telephone-forward-fill" style="font-size: 25px;"></i>
+            </a>
+            <a href="mailto:vishnuvaivid@gmail.com" target="_blank" rel="noopener noreferrer" class="mail">
+                <i class="bi bi-envelope" style="font-size: 25px;"></i> 
+            </a>
+            <a href="http://github.com/vishnu02v/" target="_blank" rel="noopener noreferrer" class="git">
+                <i class="bi bi-github" style="font-size: 25px;"></i>
+            </a>
+            <a href="https://www.instagram.com/_v_i_s_h_n_u_v__/" target="_blank" rel="noopener noreferrer" class="insta "><i class="bi bi-instagram" style="font-size: 25px;"></i></a>
+            <a href="https://www.linkedin.com/in/vishnu02v/" target="_blank" rel="noopener noreferrer" class="linkedin"><i class="bi bi-linkedin" style="font-size: 25px;"></i></a>
+           
+        </div>
+    </section>   
+    <script src="script.js"></script>
+    <section class="maintenance">
+        <div class="error">
+
+        </div>
+    </section>
+</body>
+</html>
