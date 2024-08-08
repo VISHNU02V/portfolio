@@ -2,7 +2,7 @@ body{
   background-color: rgb(255, 255, 255);
   color:rgb(0, 0, 0);
   margin:0;
-  
+ 
   scroll-behavior: smooth;
   
 }
@@ -1245,6 +1245,15 @@ nav{
   .intern{
     display:flex;
     flex-direction: row;
+    
+  }
+  .l{
+    width:50%;
+  }
+  .r{
+    width:50%;
+    padding-left:2%;
+    padding-right:2%;
   }
 
   /* footer */
