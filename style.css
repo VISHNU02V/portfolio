@@ -55,7 +55,7 @@ nav{
   /* justify-content: space-evenly; */
 }
 .imsp{
-  width:70%;
+  width:62%;
   left:0;
   display: flex;
   
@@ -86,6 +86,7 @@ display:none;
 }
 .navimg{
   width:10%;
+  
 }
 .nava{
   display:flex;
@@ -164,7 +165,7 @@ border-radius:50%;
 .dropdown {
 position: relative;
 display: block;
-width:100%;
+width:5%;
 float:left;
 align-content: center;
 
@@ -174,11 +175,11 @@ align-content: center;
 display: none;
 flex-direction: row;
 position:absolute;
-min-width: 140px;
+min-width: 160px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 1000;
 cursor:pointer;
-right:3px;
+right:0px;
 top:45px;
 
 }
@@ -299,6 +300,7 @@ body{
 /* switch ends */
 
 .mode{
+  width:3%;
   cursor: pointer;
   
 }
