@@ -1368,7 +1368,7 @@ nav{
 }
 /* Mobile view */
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
   .navbar{
     display:none;
    
@@ -1393,6 +1393,7 @@ nav{
     display:flex;
   }
   .btmnav{
+    background-color: rgba(174, 101, 23, 0.781);
     width:100%;
     display:flex;
     position: fixed;
