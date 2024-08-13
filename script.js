@@ -66,3 +66,13 @@ document.querySelectorAll('.nava').forEach(anchor => {
         }, delay);
     });
 });
+
+
+window.addEventListener('DOMContentLoaded', function() {
+    var sections = document.querySelectorAll('.sec');
+    
+    // Scroll to the section with an offset of 10vh
+    sections.forEach(function(section) {
+        section.style.scrollMarginTop = '8vh';
+    });
+});
