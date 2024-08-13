@@ -1502,6 +1502,13 @@ nav{
   .sec{
     padding:2%;
   }
+  .proj{
+    width:100%;
+  }
+  .proholder{
+    width:100%;
+    height: 100%;
+  }
 
 
   
@@ -1529,7 +1536,9 @@ nav{
   .container{
     width:100%;
   }
-
+  body{
+    font-size: 12px;
+  }
 
   .maintance{
     display:flex;
@@ -1545,7 +1554,24 @@ nav{
     position:static;
     margin-bottom: 80px;
   }
-
+  .zoom{
+    padding: 0;
+  }
+  .proj{
+    width: 100%;
+    height: 100%;
+  }
+  .promini{
+    width: 100%;
+    height: 100%;
+  }
+  .education{
+    padding:5%;
+  }
+  .info{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 .maintanance{
