@@ -1397,7 +1397,7 @@ nav{
     display:flex;
     position: fixed;
     bottom:0;
-    height: 8vh;
+    height: 6vh;
     z-index: 1000;
     backdrop-filter: blur(20px);
 
