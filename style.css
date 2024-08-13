@@ -1396,7 +1396,7 @@ nav{
     width:100%;
     display:flex;
     top:89vh;
-    height: 2vh;
+    height: 1vh;
     position:fixed;
     z-index: 1000;
     backdrop-filter: blur(20px);
@@ -1407,7 +1407,7 @@ nav{
     width:100%;
     display:flex;
     text-align: center;
-    align-items: center;
+
   }
   .mobi{
     display: flex;
