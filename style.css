@@ -1395,7 +1395,7 @@ nav{
   .btmnav{
     width:100%;
     display:flex;
-    top:98vh;
+    top:92vh;
     height: 8vh;
     position:fixed;
     z-index: 1000;
