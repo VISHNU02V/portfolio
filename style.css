@@ -1393,7 +1393,7 @@ nav{
     display:flex;
   }
   .btmnav{
-    background-color: rgb(174, 101, 23, 0.781);
+    background-color: rgba(174, 101, 23, 0.781);
     width:100%;
     display:flex;
     position: fixed;
