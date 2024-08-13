@@ -1395,9 +1395,9 @@ nav{
   .btmnav{
     width:100%;
     display:flex;
+    position: fixed;
     bottom:0;
-    height: 6vh;
-    position:fixed;
+    height: 8vh;
     z-index: 1000;
     backdrop-filter: blur(20px);
 
