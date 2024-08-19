@@ -944,7 +944,7 @@ nav{
   .education{
     display:flex;
     flex-direction: row;
-    gap:2%;
+    gap:1%;
     align-items: center;
     text-align: center;
     margin:auto;
