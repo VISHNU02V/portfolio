@@ -139,6 +139,21 @@ display:none;
   margin-right: 1%;
   margin-left: 1%;
 }
+
+
+#scroll-progress {
+  position: fixed;
+  top: 0px;
+  width: 0%;
+  height: 3px;
+  background: rgb(174, 101, 23);
+  z-index: 10000;
+}
+
+
+
+
+
 /* dropdown */
 
 .dropbtn {
@@ -1058,36 +1073,101 @@ nav{
   display:flex;
 }
 /* progress bar */ 
-.progress {
-  margin:20px auto;
-  padding:0;
+.sbar{
+  width:100%;
+}
+.skills{
+  display:flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.lcon{
+  width:50%;
+}
+.rcon{
+  width:50%;
+}
+.partition{
+  width:100%;
+  align-items: center;
+  text-align: center;
+}
+.ch{
+  display:flex;
+  flex-direction: row;
+}
+.left{
+  display:flex;
+  width:20%;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin:auto;
+ 
+}
+.right{
+  width:80%;
+  margin-right:0;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin:auto;
+  transition: transform width ease 0.5s;
+}
+.progress{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.bar{
+  width:90%;
+  height: 18px;
+  background-color: rgba(190, 177, 162, 0.699);
+  border-radius: 10px;
+}
+.percent1{
+  width:90%;
+  height: 18px;
+  background-color: rgb(174, 101, 23);
+  border-radius: 10px;
+  font-size: small;
+  animation: load 15s normal forwards;
+}
+@keyframes load {
+  0% {width: 0;}
+  
+}
+.c{
+  
+  width:90%;
+}
+.p{
+  width:100%;
+}
+.c1{
+  width:80%;
+}
+.j{
+  width:80%;
+}
+.jj{
+  width:80%;
+}
+.h{
+  width:90%;
+}
+.css{
+  width:90%;
+}
+.r{
   width:70%;
-  height:18px;
-  overflow:hidden;
-  background: #82676761;
-  border-radius:10px;
 }
 
-.bar {
-	position:relative;
-  float:left;
-  min-width:1%;
-  height:100%;
-  background-color:rgba(174, 101, 23, 0.781);
-  padding:0.1%;
-}
 
-.percent {
-	position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  margin:0;
-  font-family:tahoma,arial,helvetica;
-  font-size:11px;
-  letter-spacing: 2px;
-  color:inherit;
-}
+
   /* flip cards  */
 
   .flip-card {
