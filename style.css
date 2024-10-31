@@ -141,7 +141,7 @@ display:none;
 }
 
 
-#scroll-progress {
+#scrollbar-progress {
   position: fixed;
   top: 0px;
   width: 0%;
