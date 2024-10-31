@@ -77,7 +77,7 @@ window.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-const scrollProgress = document.getElementById("scroll-progress");
+const scrollProgress = document.getElementById("scrollbar-progress");
 const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
 window.addEventListener("scroll", () => {
