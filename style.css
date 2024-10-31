@@ -1656,6 +1656,25 @@ nav{
     padding-left: 5%;
     padding-right: 5%;
   }
+  .sbar{
+    width:100%;
+  }
+  .skills{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .skillsbar{
+    width:100%;
+  }
+  
+  .lcon{
+    width:100%;
+  }
+  .rcon{
+    width:100%;
+  }
 }
 
 .maintanance{
