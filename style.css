@@ -1513,7 +1513,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+  }
 .icon {
     width: 60px;
     height: 8px;
@@ -1668,7 +1668,20 @@ nav{
   .skillsbar{
     width:100%;
   }
+  .sbar{
+    width:100%;
+  }
+  .skills{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .skillsbar{
+    width:100%;
+  }
   
+ 
   .lcon{
     width:100%;
   }
