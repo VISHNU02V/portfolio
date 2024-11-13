@@ -1601,6 +1601,9 @@ nav{
   .l, .r{
     width:100%
   }
+  .l{
+    padding:2%;
+  }
   .intern{
     display:flex;
     flex-direction: column;
