@@ -879,7 +879,7 @@ nav{
     text-align: center;
   }
   .img{
-    clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% 60% at 50% 50%);
     background-color:inherit;
   
   }
