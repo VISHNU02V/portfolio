@@ -1339,6 +1339,10 @@ nav{
     flex-direction: row;
     
   }
+  .info{
+    display:flex;
+    justify-content: center;
+  }
   .l{
     width:50%;
   }
@@ -1423,6 +1427,7 @@ nav{
     width:60%;
     margin-right: 0;
     right:0;
+
   }
 
   .file{
