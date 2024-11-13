@@ -1342,6 +1342,7 @@ nav{
   .info{
     display:flex;
     justify-content: center;
+    margin:auto;
   }
   .l{
     width:50%;
@@ -1352,7 +1353,9 @@ nav{
     padding-right:2%;
     margin:auto;
   }
- 
+  .divider .r{
+    margin: auto;
+  }
   /* footer */
 
   .footer {  /*footer section */
