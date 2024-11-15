@@ -44,7 +44,7 @@ color:inherit;
   backdrop-filter:blur(100px);
 }
 nav{
-
+  width: 100%;
   z-index: 1;
   backdrop-filter:blur(100px);
   
