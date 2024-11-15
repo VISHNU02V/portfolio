@@ -60,7 +60,7 @@ nav{
 
 
 
-  box-shadow: 0px 2px 0px 0px #fffffffc;
+  box-shadow: 0px 1px 0px 0px #fffffffc;
   z-index: 1;
   backdrop-filter:blur(100px);
   /* justify-content: space-evenly; */
