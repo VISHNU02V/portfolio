@@ -39,7 +39,7 @@ color:inherit;
   text-align: center;
   align-items: end;
   margin: auto;
-  box-shadow: 0px 3px 0px 0px #000000fc;
+  box-shadow: 0px 6px 0px 0px #000000fc;
   z-index: 1;
   backdrop-filter:blur(100px);
 
@@ -60,7 +60,7 @@ nav{
 
 
 
-  box-shadow: 0px 3px 0px 0px #fffffffc;
+  box-shadow: 0px 2px 0px 0px #fffffffc;
   z-index: 1;
   backdrop-filter:blur(100px);
   /* justify-content: space-evenly; */
