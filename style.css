@@ -47,9 +47,8 @@ color:inherit;
   width:100%;
 }
 nav{
-  display: flex;
-  flex-direction:row;
-  position:fixed;
+
+
   width: 100%;
   align-items: center;
   text-align: center;
