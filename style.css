@@ -39,7 +39,7 @@ color:inherit;
   text-align: center;
   align-items: end;
   margin: auto;
-  box-shadow: 0px 12px 0px 0px #000000fc;
+  box-shadow: 0px 12px 0px 0px rgba(174, 101, 23, 0.781);
   z-index: 1;
   
 
